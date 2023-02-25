@@ -1,11 +1,11 @@
-# g++ -c time.cpp
-# g++ time.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
+# g++ -c .cpp
+# g++ .o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
 
 MF=Makefile
 
-EXE=time
+EXE=sfml-app
 INC=
-SRC=time.cpp
+SRC=helloworld.cpp
 
 CXX=g++
 CXXFLAGS=
